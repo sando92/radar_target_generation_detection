@@ -91,7 +91,7 @@ Before 2D CA-CFAR process, we initialize three data structures with zeros and th
 
 During process, to avoid cells at the edges, we only iterate on cells from 1+Gr+Tr to (Nr/2-(Gr+Tr)) for range dimension and from 1+Gd+Td to (Nd-(Gd+Td)) for doppler dimension.
 
-![Target Detection result](target_detection.png)
+![Target Detection result](illustrations/target_detection.png)
 
 # Dependencies
 
