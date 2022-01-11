@@ -82,6 +82,14 @@ The purpose of the Guard Cells is to avoid the target signal from leaking into t
 
 We use an offset value to scale the noise threshold. If the signal strength is defined in logarithmic form then add this offset value to the average noise estimate, else multiply it.
 
+For this project, we have set the following values:
+
+- Tr = 3
+- Td = 2
+- Gr = 2
+- Gd = 1
+- offset = 9
+
 ## Steps taken to suppress the non-thresholded cells at the edges.
 
 Before 2D CA-CFAR process, we initialize three data structures with zeros and their final size of (Nr/2,Nd), as the RDM:
